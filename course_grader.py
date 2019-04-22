@@ -1,7 +1,9 @@
 def course_grader(param):
-    length = len(param)
-    last = param(len(param)
-    
-    for grade in range(1, last)
-    
-    return ""
+    sum = 0
+    for index in range(len(param)):
+        sum = sum + param[index]
+    print(sum)
+
+    avg = sum / (len(param) -1)
+    print(avg)
+    print(avg > 70)
