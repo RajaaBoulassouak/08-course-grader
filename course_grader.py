@@ -5,8 +5,9 @@ def course_grader(param):
             return "fail"
         sum = sum + param[index]
     
-    avg = sum / (len(param) -1)
+    avg = sum / len(param)
     if avg < 70:
         return "fail"
     else:
         return "pass"
+
